@@ -8,7 +8,7 @@ group :production do
 end
 
 group :developement, :test do
-	gem 'sqlite3'
+	gem 'sqlite3-ruby', "~> 1.3.0", :require => "sqlite3"
 end
 
 group :assets do
